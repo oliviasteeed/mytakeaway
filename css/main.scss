@@ -253,6 +253,10 @@ strong {
     padding:0.1rem;
 }
 
+a{
+    color:$text_colour;
+}
+
 /* book cover image hidden when not hovering */
 .hoverimg{
     position:absolute;
