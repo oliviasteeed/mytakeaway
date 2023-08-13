@@ -4,19 +4,19 @@
 
 // the medusa and the snail //
 
-var themedusaimg = document.getElementById("themedusa-img");
-var themedusabar = document.getElementById("themedusa-bar");
+var asteroidimg = document.getElementById("asteroid-img");
+var asteroidbar = document.getElementById("asteroid-bar");
 
-themedusabar.onmouseenter = function (e){
-    themedusaimg.style.display="block";
+asteroidbar.onmouseenter = function (e){
+    asteroidimg.style.display="block";
 }
 
-themedusabar.onmouseleave = function (e){
-    themedusaimg.style.display="none";
+asteroidbar.onmouseleave = function (e){
+    asteroidimg.style.display="none";
 }
 
-themedusabar.onmousemove = function (e){
-    themedusaimg.style.left = e.pageX + 10 + "px";
-    themedusaimg.style.top = e.pageY - 80 + "px";
+asteroidbar.onmousemove = function (e){
+    asteroidimg.style.left = e.pageX + 10 + "px";
+    asteroidimg.style.top = e.pageY - 80 + "px";
 }
 

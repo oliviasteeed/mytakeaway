@@ -25,38 +25,45 @@
 
             <nav class="nav-container">
                 <input type="submit" class="recents-button" value="all"
-                    onclick="window.location.href='../../index.html';">
+                    onclick="window.location.href='../all.html';">
                 <input type="submit" class="design-button" value="design"
                     onclick="window.location.href='../design/design.html';">
                 <input type="submit" class="psychology-button" value="psychology"
                     onclick="window.location.href='../psychology/psychology.html';">
                 <input type="submit" class="philosophy-button" value="philosophy"
                     onclick="window.location.href='../philosophy/philosophy.html';">
-                <input type="submit" class="random-button" value="random" onclick="window.location.href='#';">
+                <input type="submit" class="random-button" value="random"
+                    onclick="window.location.href='..random.html';">
             </nav>
         </header>
 
-        <div class="takeaway-list-container">
-
-            <div id="asteroid-bar">
-                <div class="takeaway-list-item random" onclick="window.location.href='asteroidcity.html';" style="cursor: pointer;">
-                    <h2> Everyone is looking for something and that something is love. </h2>
-                    <div class="button-bg">
-                        <input type="image" id="back" class="button-icon" src="../../img/plusicon.png"
-                            onclick="window.location.href='asteroidcity.html';" />
-                    </div>
+        <div class="header-outer-container">
+            <div class="image-button-container">
+                <div class="button-bg">
+                    <input type="image" id="close" class="button-icon" src="../../img/closex.png"
+                        onclick="window.location.href='../../index.html';" />
                 </div>
-                <img id="asteroid-img" class="hoverimg" src="../../img/asteroid_1x.png" />
             </div>
 
-
+            <div class="header-container">
+                <h1> Asteroid City </h1>
+                <h2> Wes Anderson (Director) </h2>
+            </div>
         </div>
 
 
+        <div class="takeaway-outer-container">
+
+            <img src="../../img/asteroid_2x.png" class="image-right"
+                srcset="../../img/asteroid_1x.png 1x, ../../img/asteroid_2x.png 2x"
+                alt="My movie ticket from seeing Asteroid City.">
 
 
-
-
+            <section class="takeaway-container">
+                <h2> Main Takeaway </h2>
+                <h3> Everyone is looking for something and that something is love. </h3>
+            </section>
+        </div>
 
 
         <footer class="footer">
@@ -93,9 +100,7 @@
 
 
     </div>
-    <script src="../../js/random.js"></script>
 
 </body>
-
 
 </html>
