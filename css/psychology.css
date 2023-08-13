@@ -1,0 +1,177 @@
+/* highlight quotes with section colour */
+strong {
+  background-color: #FFD0FD;
+}
+
+/* general button stroke turn section colour on hover */
+.general-button:active {
+  background-color: #FFD0FD;
+  border: 0px;
+}
+
+.general-button:hover,
+nav-button:focus {
+  border: 1px solid #FFD0FD;
+}
+
+/* show psychology button as selected */
+.psychology-button {
+  background-color: #FFD0FD;
+  border: 1px solid #FFD0FD;
+}
+
+/* general icon buttons */
+.button-bg:hover,
+button-bg:focus {
+  border: 1px solid #FFD0FD;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.button-bg:active {
+  border: 1px solid #FFD0FD;
+  background-color: #FFD0FD;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* hovered bar highlights in section colour */
+.takeaway-list-item:hover, .takeaway-list-item:focus, .takeaway-list-item:active {
+  background-color: #FFD0FD;
+}
+.takeaway-list-item:hover .button-bg, .takeaway-list-item:focus .button-bg, .takeaway-list-item:active .button-bg {
+  border: 1px solid #FFD0FD;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* cursor selection matches section colour */
+p::-moz-selection {
+  background-color: #FFD0FD;
+}
+p::selection {
+  background-color: #FFD0FD;
+}
+
+em::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+em::selection {
+  background-color: #FFD0FD;
+}
+
+strong::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+strong::selection {
+  background-color: #FFD0FD;
+}
+
+code::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+code::selection {
+  background-color: #FFD0FD;
+}
+
+h1::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+h1::selection {
+  background-color: #FFD0FD;
+}
+
+h2::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+h2::selection {
+  background-color: #FFD0FD;
+}
+
+h3::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+h3::selection {
+  background-color: #FFD0FD;
+}
+
+h4::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+h4::selection {
+  background-color: #FFD0FD;
+}
+
+h5::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+h5::selection {
+  background-color: #FFD0FD;
+}
+
+a::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+a::selection {
+  background-color: #FFD0FD;
+}
+
+ul::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+ul::selection {
+  background-color: #FFD0FD;
+}
+
+ol::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+ol::selection {
+  background-color: #FFD0FD;
+}
+
+li::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+li::selection {
+  background-color: #FFD0FD;
+}
+
+img::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+img::selection {
+  background-color: #FFD0FD;
+}
+
+figcaption::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+figcaption::selection {
+  background-color: #FFD0FD;
+}
+
+input::-moz-selection {
+  background-color: #FFD0FD;
+}
+
+input::selection {
+  background-color: #FFD0FD;
+}

@@ -1,0 +1,190 @@
+/* highlight quotes with section colour */
+strong {
+  background-color: #FFF620;
+}
+
+/* general button stroke turn section colour on hover */
+.general-button:active {
+  background-color: #FFF620;
+  border: 0px;
+}
+
+.general-button:hover, nav-button:focus {
+  border: 1px solid #FFF620;
+}
+
+/* show random button as selected */
+.random-button {
+  background-color: #FFF620;
+  border: 1px solid #FFF620;
+}
+
+/* general icon buttons */
+.button-bg:hover, button-bg:focus {
+  border: 1px solid #FFF620;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.button-bg:active {
+  border: 1px solid #FFF620;
+  background-color: #FFF620;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.open-button:hover, open-button:focus {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.open-button:active {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* hovered bar highlights in section colour */
+.takeaway-list-item:hover, .takeaway-list-item:focus, .takeaway-list-item:active {
+  background-color: #FFF620;
+}
+.takeaway-list-item:hover .button-bg, .takeaway-list-item:focus .button-bg, .takeaway-list-item:active .button-bg {
+  border: 1px solid #FFF620;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* cursor selection matches section colour */
+p::-moz-selection {
+  background-color: #FFF620;
+}
+p::selection {
+  background-color: #FFF620;
+}
+
+em::-moz-selection {
+  background-color: #FFF620;
+}
+
+em::selection {
+  background-color: #FFF620;
+}
+
+strong::-moz-selection {
+  background-color: #FFF620;
+}
+
+strong::selection {
+  background-color: #FFF620;
+}
+
+code::-moz-selection {
+  background-color: #FFF620;
+}
+
+code::selection {
+  background-color: #FFF620;
+}
+
+h1::-moz-selection {
+  background-color: #FFF620;
+}
+
+h1::selection {
+  background-color: #FFF620;
+}
+
+h2::-moz-selection {
+  background-color: #FFF620;
+}
+
+h2::selection {
+  background-color: #FFF620;
+}
+
+h3::-moz-selection {
+  background-color: #FFF620;
+}
+
+h3::selection {
+  background-color: #FFF620;
+}
+
+h4::-moz-selection {
+  background-color: #FFF620;
+}
+
+h4::selection {
+  background-color: #FFF620;
+}
+
+h5::-moz-selection {
+  background-color: #FFF620;
+}
+
+h5::selection {
+  background-color: #FFF620;
+}
+
+a::-moz-selection {
+  background-color: #FFF620;
+}
+
+a::selection {
+  background-color: #FFF620;
+}
+
+ul::-moz-selection {
+  background-color: #FFF620;
+}
+
+ul::selection {
+  background-color: #FFF620;
+}
+
+ol::-moz-selection {
+  background-color: #FFF620;
+}
+
+ol::selection {
+  background-color: #FFF620;
+}
+
+li::-moz-selection {
+  background-color: #FFF620;
+}
+
+li::selection {
+  background-color: #FFF620;
+}
+
+img::-moz-selection {
+  background-color: #FFF620;
+}
+
+img::selection {
+  background-color: #FFF620;
+}
+
+figcaption::-moz-selection {
+  background-color: #FFF620;
+}
+
+figcaption::selection {
+  background-color: #FFF620;
+}
+
+input::-moz-selection {
+  background-color: #FFF620;
+}
+
+input::selection {
+  background-color: #FFF620;
+}

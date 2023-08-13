@@ -1,0 +1,127 @@
+$philosophy_colour: #A9FF76;
+$background_colour: white;
+$text_colour: black;
+$stroke_colour: black;
+
+/* highlight quotes with section colour */
+
+strong{
+    background-color: $philosophy_colour;
+}
+
+/* general button stroke turn section colour on hover */
+
+.general-button:active{
+    background-color: $philosophy_colour;
+    border: 0px;
+}
+
+.general-button:hover, nav-button:focus {
+    border: 1px solid $philosophy_colour;
+}
+
+/* show philosophy button as selected */
+.philosophy-button {
+    background-color: $philosophy_colour;
+    border: 1px solid $philosophy_colour;
+}
+
+/* general icon buttons */
+
+.button-bg:hover, button-bg:focus{
+    border: 1px solid $philosophy_colour;
+    border-radius:50%;
+    width:3.5rem;
+    height:3.5rem;
+}
+
+.button-bg:active{
+    border: 1px solid $philosophy_colour;
+    background-color: $philosophy_colour;
+    border-radius:50%;
+    width:3.5rem;
+    height:3.5rem;
+}
+
+/* hovered bar highlights in section colour */
+.takeaway-list-item:hover, .takeaway-list-item:focus, .takeaway-list-item:active{
+        background-color: $philosophy_colour;
+
+        .button-bg{
+            border: 1px solid $philosophy_colour;
+            border-radius: 50%;
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+}
+
+
+/* cursor selection matches section colour */
+
+@mixin background-colour {
+    background-color: $philosophy_colour;
+}
+
+p::selection {
+    @include background-colour;
+}
+
+em::selection {
+    @include background-colour;
+}
+
+strong::selection {
+    @include background-colour;
+}
+
+code::selection {
+    @include background-colour;
+}
+
+h1::selection {
+    @include background-colour;
+}
+
+h2::selection {
+    @include background-colour;
+}
+
+h3::selection {
+    @include background-colour;
+}
+
+h4::selection {
+    @include background-colour;
+}
+
+h5::selection {
+    @include background-colour;
+}
+
+a::selection {
+    @include background-colour;
+}
+
+ul::selection {
+    @include background-colour;
+}
+
+ol::selection {
+    @include background-colour;
+}
+
+li::selection {
+    @include background-colour;
+}
+
+img::selection {
+    @include background-colour;
+}
+
+figcaption::selection {
+    @include background-colour;
+}
+
+input::selection {
+    @include background-colour;
+}

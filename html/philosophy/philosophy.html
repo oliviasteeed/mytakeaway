@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>my takeaway</title>
+
+    <link href="../../css/normalize.css" rel="stylesheet">
+    <link href="../../css/main.css" rel="stylesheet">
+    <link href="../../css/philosophy.css" rel="stylesheet">
+    <link href="../../css/fonts.css" rel="stylesheet">
+    <link href="../../css/layout.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="../../img/browser_icon.png">
+</head>
+
+<body>
+
+    <div class="outer-container">
+
+        <header class="title-container">
+            <h1 class="site-title" onclick="window.location.href='../../index.html';" style="cursor: pointer;">my takeaway:</h1>
+
+            <nav class="nav-container">
+                <input type="submit" class="recents-button" value="all"
+                    onclick="window.location.href='../../index.html';">
+                <input type="submit" class="design-button" value="design"
+                    onclick="window.location.href='../design/design.html';">
+                <input type="submit" class="psychology-button" value="psychology"
+                    onclick="window.location.href='../psychology/psychology.html';">
+                <input type="submit" class="philosophy-button" value="philosophy" onclick="window.location.href='#';">
+                <input type="submit" class="random-button" value="random"
+                    onclick="window.location.href='../random/random.html';">
+            </nav>
+        </header>
+
+        <div class="takeaway-list-container">
+
+            <div id="themedusa-bar">
+                <div class="takeaway-list-item philosophy" onclick="window.location.href='themedusa.html';"
+                    style="cursor: pointer;">
+                    <h2> Reassuringly, everyone is an individual, and therefore exactly the same. </h2>
+                    <div class="button-bg">
+                        <input type="image" id="back" class="button-icon" src="../../img/plusicon.png"
+                            onclick="window.location.href='html/philosophy/themedusa.html';" />
+                    </div>
+                </div>
+                <img id="themedusa-img" class="hoverimg" src="../../img/themedusa_1x.png" />
+            </div>
+
+        </div>
+
+
+
+        <footer class="footer">
+
+
+
+            <div class="footer-button-container">
+                <div class="button-bg">
+                    <input type="image" id="back" class="button-icon" src="../../img/backarrow.png"
+                        onclick="window.location.href='#';" />
+                </div>
+
+                <div class="button-bg">
+                    <input type="image" id="back" class="button-icon" src="../../img/toparrow.png"
+                        onclick="window.location.href='#';" />
+                </div>
+
+                <div class="button-bg">
+                    <input type="image" id="back" class="button-icon" src="../../img/nextarrow.png"
+                        onclick="window.location.href='#';" />
+                </div>
+            </div>
+
+
+            <nav class="footer-nav">
+                <input type="submit" class="general-button" value="about"
+                    onclick="window.location.href='../about.html';">
+                <input type="submit" class="general-button" value="credits"
+                    onclick="window.location.href='../credits.html';">
+            </nav>
+
+            <h2> Olivia Steed 2023 </h2>
+        </footer>
+
+
+    </div>
+
+    <script src="../../js/philosophy.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+//* flex layout *//
+
+/* spacing */
+
+@mixin between-section-margin-large{
+    margin-bottom:10rem;
+}
+
+@mixin between-section-margin{
+    margin-bottom:5rem;
+}
+
+@mixin within-section-margin{
+    margin-bottom:2rem;
+}
+
+@mixin within-section-margin-small{
+    margin-bottom:1rem;
+}
+
+/* outer container around all content */
+.outer-container {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* container for site title and nav */
+.title-container{
+    @include between-section-margin;
+}
+
+/* container for nav buttons */
+.nav-container {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+/* container for image icon and title */
+.header-outer-container{
+    display:flex;
+    flex-direction:column;
+    width:70vw;
+
+    // border: red solid 1px;
+}
+
+/* container for book title and author */
+.header-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    @include between-section-margin;
+
+    // border: orange solid 1px;
+}
+
+/* container for image buttons */
+.image-button-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:right;
+
+    // border: pink solid 1px;
+}
+
+.takeaway-outer-container {
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    gap: 3rem;
+    align-items:center;
+    @include between-section-margin;
+}
+
+/* container for standout takeaway */
+.takeaway-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width:28rem;
+    gap:2rem;
+}
+
+/* container for credits/about page takeaway */
+.takeaway-container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap:2rem;
+    @include between-section-margin;
+}
+
+/* container containing subtitles and copy */
+.copy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width:55rem;
+    @include between-section-margin;
+}
+
+/* container to divicde sections on credits and about page */
+.copy-section-container{
+    @include between-section-margin;
+}
+
+/* container for data information at bottom of takeaways */
+.date-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:2rem;
+    margin-bottom:5rem;
+}
+
+/* container for footer elements */
+.footer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.footer-nav{
+    @extend .nav-container;
+    @include within-section-margin;
+}
+
+/* for image buttons in footer */
+.footer-button-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:70vw;
+    @include between-section-margin-large;
+}
+
+//* landing page *//
+
+/* holds takeaway list item and icon */
+.takeaway-list-container{
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    @include between-section-margin-large;
+    width: 70vw;
+
+}
+
+.takeaway-list-item{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    gap:1rem;
+    border-radius:3rem;
+    padding:0.2rem;
+    padding-left:1.5rem;
+    transition: background-color 0.3s ease-in-out;
+
+    @include within-section-margin-small;
+
+
+    h2{
+        max-width:50rem;
+    }
+}
+
+
+

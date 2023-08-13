@@ -1,0 +1,175 @@
+/* highlight quotes with section colour */
+strong {
+  background-color: #A9FF76;
+}
+
+/* general button stroke turn section colour on hover */
+.general-button:active {
+  background-color: #A9FF76;
+  border: 0px;
+}
+
+.general-button:hover, nav-button:focus {
+  border: 1px solid #A9FF76;
+}
+
+/* show philosophy button as selected */
+.philosophy-button {
+  background-color: #A9FF76;
+  border: 1px solid #A9FF76;
+}
+
+/* general icon buttons */
+.button-bg:hover, button-bg:focus {
+  border: 1px solid #A9FF76;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.button-bg:active {
+  border: 1px solid #A9FF76;
+  background-color: #A9FF76;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* hovered bar highlights in section colour */
+.takeaway-list-item:hover, .takeaway-list-item:focus, .takeaway-list-item:active {
+  background-color: #A9FF76;
+}
+.takeaway-list-item:hover .button-bg, .takeaway-list-item:focus .button-bg, .takeaway-list-item:active .button-bg {
+  border: 1px solid #A9FF76;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* cursor selection matches section colour */
+p::-moz-selection {
+  background-color: #A9FF76;
+}
+p::selection {
+  background-color: #A9FF76;
+}
+
+em::-moz-selection {
+  background-color: #A9FF76;
+}
+
+em::selection {
+  background-color: #A9FF76;
+}
+
+strong::-moz-selection {
+  background-color: #A9FF76;
+}
+
+strong::selection {
+  background-color: #A9FF76;
+}
+
+code::-moz-selection {
+  background-color: #A9FF76;
+}
+
+code::selection {
+  background-color: #A9FF76;
+}
+
+h1::-moz-selection {
+  background-color: #A9FF76;
+}
+
+h1::selection {
+  background-color: #A9FF76;
+}
+
+h2::-moz-selection {
+  background-color: #A9FF76;
+}
+
+h2::selection {
+  background-color: #A9FF76;
+}
+
+h3::-moz-selection {
+  background-color: #A9FF76;
+}
+
+h3::selection {
+  background-color: #A9FF76;
+}
+
+h4::-moz-selection {
+  background-color: #A9FF76;
+}
+
+h4::selection {
+  background-color: #A9FF76;
+}
+
+h5::-moz-selection {
+  background-color: #A9FF76;
+}
+
+h5::selection {
+  background-color: #A9FF76;
+}
+
+a::-moz-selection {
+  background-color: #A9FF76;
+}
+
+a::selection {
+  background-color: #A9FF76;
+}
+
+ul::-moz-selection {
+  background-color: #A9FF76;
+}
+
+ul::selection {
+  background-color: #A9FF76;
+}
+
+ol::-moz-selection {
+  background-color: #A9FF76;
+}
+
+ol::selection {
+  background-color: #A9FF76;
+}
+
+li::-moz-selection {
+  background-color: #A9FF76;
+}
+
+li::selection {
+  background-color: #A9FF76;
+}
+
+img::-moz-selection {
+  background-color: #A9FF76;
+}
+
+img::selection {
+  background-color: #A9FF76;
+}
+
+figcaption::-moz-selection {
+  background-color: #A9FF76;
+}
+
+figcaption::selection {
+  background-color: #A9FF76;
+}
+
+input::-moz-selection {
+  background-color: #A9FF76;
+}
+
+input::selection {
+  background-color: #A9FF76;
+}

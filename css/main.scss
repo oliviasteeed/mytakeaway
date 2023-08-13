@@ -1,0 +1,261 @@
+$background_colour: white;
+$text_colour: black;
+$stroke_colour: black;
+$recents_colour: #ECECEC;
+$design_colour: #A0E3FF;
+$psychology_colour: #FFD0FD;
+$philosophy_colour: #A9FF76;
+$random_colour: #FFF620;
+
+/* for spacing between elements within a section */
+@mixin within-section-margin{
+    margin-bottom:2rem;
+}
+
+//* visual elements *//
+
+/* nav button styling */
+
+.button {
+    border-radius: 1rem;
+    border: 1px solid $stroke_colour;
+    background-color: $background_colour;
+    width: 6rem;
+    height: 2rem;
+    flex-shrink: 0;
+
+    color: $text_colour;
+    font-family: 'NeueMontreal-Medium';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%;
+    /* 1.45rem */
+
+    transition: border 0.3s ease-in-out;
+}
+
+.psychology-button{
+    @extend .button;
+}
+
+.design-button{
+    @extend .button;
+}
+
+.philosophy-button{
+    @extend .button;
+}
+
+.random-button{
+    @extend .button;
+}
+
+.recents-button{
+    @extend .button;
+}
+
+.general-button{
+    @extend .button;
+}
+
+.psychology-button:active {
+    background-color: $psychology_colour;
+    border: 0px;
+}
+
+.psychology-button:hover {
+    border: 1px solid $psychology_colour;
+}
+
+.design-button:active {
+    background-color: $design_colour;
+    border: 0px;
+}
+
+.design-button:hover {
+    border: 1px solid $design_colour;
+}
+
+.philosophy-button:active {
+    background-color: $philosophy_colour;
+    border: 0px;
+}
+
+.philosophy-button:hover {
+    border: 1px solid $philosophy_colour;
+}
+
+.random-button:active {
+    background-color: $random_colour;
+    border: 0px;
+}
+
+.random-button:hover {
+    border: 1px solid $random_colour;
+}
+
+.recents-button:active {
+    background-color: $recents_colour;
+    border: 0px;
+}
+
+.recents-button:hover {
+    border: 1px solid $recents_colour;
+}
+
+/* icon image button styling */
+.image-button{
+    width: 5%;
+}
+
+
+.close-button{
+    @extend .image-button;
+    // border: orange 1px solid;
+}
+
+.back-button{
+    @extend .image-button;
+    // border: orange 1px solid;
+}
+
+.top-button{
+    @extend .image-button;
+    // border: orange 1px solid;
+}
+
+.next-button{
+    @extend .image-button;
+    // border: orange 1px solid;
+}
+
+.plus-button{
+    @extend .image-button;
+}
+
+.button-bg{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border: 1px solid $stroke_colour;
+    background-color:rgba(0, 0, 0, 0);
+    border-radius:50%;
+    width:3.5rem;
+    height:3.5rem;
+    transition: border 0.3s ease-in-out;
+    flex-shrink:0;
+}
+
+.button-icon{
+    height:3rem;
+}
+
+
+//* text styling *//
+
+/* headers */
+
+h1 {
+    color: $text-colour;
+    text-align: center;
+    font-family: "Whyte-Medium", Helvetica, sans-serif;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 6rem */
+
+    max-width:55rem;
+
+    padding:0rem;
+    margin:0rem;
+
+    @include within-section-margin;
+}
+
+h2 {
+    color: $text-colour;
+    font-family: 'NeueMontreal-Medium';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%;
+    /* 1.8125rem */
+
+    padding:0rem;
+    margin:0rem;
+}
+
+.copy-subtitle{
+    @include within-section-margin;
+}
+
+h3 {
+    color: $text-colour;
+    font-family: "Whyte-Regular", Helvetica, sans-serif;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 100%;
+    /* 4rem */
+
+    padding:0rem;
+    margin:0rem;
+}
+
+.site-title {
+    color: $text-colour;
+    text-align: center;
+    font-family: 'Pressura-Medium';
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145%;
+    /* 2.71875rem */
+    letter-spacing: -0.0375rem;
+
+    @include within-section-margin;
+}
+
+/* copy */
+
+.copy {
+    color: $text-colour;
+    font-family: 'NeueMontreal-Book';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 2.125rem */
+
+}
+
+em {
+    color: $text-colour;
+    // font-family: 'NeueMontreal-Italic';
+    font-family:'NeueHaas-LightItalic';
+    letter-spacing: 0.04rem;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+strong {
+    color: $text-colour;
+    font-family: 'NeueMontreal-Medium';
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+    border-radius:1rem;
+    padding:0.1rem;
+}
+
+/* book cover image hidden when not hovering */
+.hoverimg{
+    position:absolute;
+    display:none;
+    width:8rem;
+}

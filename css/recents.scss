@@ -1,0 +1,156 @@
+$background_colour: white;
+$text_colour: black;
+$stroke_colour: black;
+$recents_colour: #ECECEC;
+$design_colour: #A0E3FF;
+$psychology_colour: #FFD0FD;
+$philosophy_colour: #A9FF76;
+$random_colour: #FFF620;
+
+/* highlight quotes with section colour */
+
+strong{
+    background-color: $recents_colour;
+}
+
+/* general button stroke turn section colour on hover */
+
+.general-button:active{
+    background-color: $recents_colour;
+    border: 0px;
+}
+
+.general-button:hover, nav-button:focus {
+    border: 1px solid $recents_colour;
+}
+
+/* show philosophy button as selected */
+.recents-button {
+    background-color: $recents_colour;
+    border: 1px solid $recents_colour;
+}
+
+/* general icon buttons */
+
+.button-bg:hover, button-bg:focus{
+    border: 1px solid $recents_colour;
+    border-radius:50%;
+    width:3.5rem;
+    height:3.5rem;
+}
+
+.button-bg:active{
+    border: 1px solid $recents_colour;
+    background-color: $recents_colour;
+    border-radius:50%;
+    width:3.5rem;
+    height:3.5rem;
+}
+
+.open-button:hover, open-button:focus{
+    border: 1px solid $background-colour;
+    border-radius:50%;
+    width:3.5rem;
+    height:3.5rem;
+}
+
+.open-button:active{
+    border: 1px solid $background-colour;
+    background-color: $background-colour;
+    border-radius:50%;
+    width:3.5rem;
+    height:3.5rem;
+}
+
+/* hovered bar highlights in section colour */
+.takeaway-list-item:hover, .takeaway-list-item:focus, .takeaway-list-item:active{
+
+
+    &.philosophy{
+        background-color: $philosophy_colour;
+    }
+
+    &.design{
+        background-color: $design_colour;
+    }
+
+    &.random{
+        background-color: $random_colour;
+    }
+
+    &.psychology{
+        background-color: $psychology_colour;
+    }
+
+}
+
+
+/* cursor selection matches section colour */
+
+@mixin background-colour {
+    background-color: $recents_colour;
+}
+
+p::selection {
+    @include background-colour;
+}
+
+em::selection {
+    @include background-colour;
+}
+
+strong::selection {
+    @include background-colour;
+}
+
+code::selection {
+    @include background-colour;
+}
+
+h1::selection {
+    @include background-colour;
+}
+
+h2::selection {
+    @include background-colour;
+}
+
+h3::selection {
+    @include background-colour;
+}
+
+h4::selection {
+    @include background-colour;
+}
+
+h5::selection {
+    @include background-colour;
+}
+
+a::selection {
+    @include background-colour;
+}
+
+ul::selection {
+    @include background-colour;
+}
+
+ol::selection {
+    @include background-colour;
+}
+
+li::selection {
+    @include background-colour;
+}
+
+img::selection {
+    @include background-colour;
+}
+
+figcaption::selection {
+    @include background-colour;
+}
+
+input::selection {
+    @include background-colour;
+}
