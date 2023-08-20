@@ -166,6 +166,8 @@ h1 {
     line-height: 100%;
     /* 6rem */
 
+    word-break: break-word;
+
     max-width:55rem;
 
     padding:0rem;
@@ -204,6 +206,46 @@ h3 {
     margin:0rem;
 }
 
+/* phone sizing */
+@media screen and (max-width:500px){
+    h1 {
+        color: $text-colour;
+        text-align: center;
+        font-family: "Whyte-Medium", Helvetica, sans-serif;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+        /* 6rem */
+    
+        word-break: break-word;
+    
+        max-width:55rem;
+    
+        padding:0rem;
+        margin:0rem;
+    
+        @include within-section-margin;
+    }
+
+    h3 {
+        color: $text-colour;
+        font-family: "Whyte-Regular", Helvetica, sans-serif;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 100%;
+        /* 4rem */
+    
+        padding:0rem;
+        margin:0rem;
+    }
+
+    img{
+        width:300px;
+    }
+}
+
 .site-title {
     color: $text-colour;
     text-align: center;
@@ -233,7 +275,6 @@ h3 {
 
 em {
     color: $text-colour;
-    // font-family: 'NeueMontreal-Italic';
     font-family:'NeueHaas-LightItalic';
     letter-spacing: 0.04rem;
     font-size: 1.25rem;
@@ -257,9 +298,11 @@ a{
     color:$text_colour;
 }
 
+
 /* book cover image hidden when not hovering */
 .hoverimg{
     position:absolute;
     display:none;
     width:8rem;
 }
+
