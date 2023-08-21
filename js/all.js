@@ -63,7 +63,7 @@ themedusabar.onmousemove = function (e){
     themedusaimg.style.top = e.pageY - 80 + "px";
 }
 
-//the development of meaning //
+// the development of meaning //
 
 var thedevimg = document.getElementById("thedevelopment-img");
 var thedevbar = document.getElementById("thedevelopment-bar");
@@ -79,4 +79,22 @@ thedevbar.onmouseleave = function (e){
 thedevbar.onmousemove = function (e){
     thedevimg.style.left = e.pageX + 10 + "px";
     thedevimg.style.top = e.pageY - 80 + "px";
+}
+
+// creativity //
+
+var creativityimg = document.getElementById("creativity-img");
+var creativitybar = document.getElementById("creativity-bar");
+
+creativitybar.onmouseenter = function (e){
+    creativityimg.style.display="block";
+}
+
+creativitybar.onmouseleave = function (e){
+    creativityimg.style.display="none";
+}
+
+creativitybar.onmousemove = function (e){
+    creativityimg.style.left = e.pageX + 10 + "px";
+    creativityimg.style.top = e.pageY - 80 + "px";
 }
