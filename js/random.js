@@ -2,7 +2,7 @@
 
 //show book cover image on hover (this is horribly inefficient, figure out how to loop through array and do this)
 
-// the medusa and the snail //
+// asteroid city //
 
 var asteroidimg = document.getElementById("asteroid-img");
 var asteroidbar = document.getElementById("asteroid-bar");
