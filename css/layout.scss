@@ -20,21 +20,32 @@
 
 /* outer container around all content */
 .outer-container {
-    margin-left: 15vw;
-    margin-right: 15vw;
-    margin-top: 5rem;
+    // margin-left: 25vw;
+    // margin-right: 25vw;
+    // margin-top: 5rem;
     margin-bottom: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    // border: red 1px solid;
+}
+
+.content-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    // border: 1px blue solid;
+    width:50rem;
 }
 
 /* container for site title and nav */
 .title-container{
-    @include between-section-margin;
+    // @include between-section-margin;
     display:flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: baseline;
+    width: 97vw;
+    height:3rem;
 }
 
 /* container for nav buttons */
@@ -42,18 +53,30 @@
     display: flex;
     flex-direction:row;
     flex-wrap:wrap;
-    align-items: flex-start;
-    gap: 0.75rem;
-    justify-content:center;
+    align-items: baseline;
+    justify-content:right;
+    gap: 0.5rem;
+    flex:1;
 
-    // border: pink solid 1px;
+    // border: orange solid 1px;
+}
+
+/* nav bar */
+.nav-bar {
+    width: 100vw;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include within-section-margin;
 }
 
 /* container for image icon and title */
 .header-outer-container{
     display:flex;
     flex-direction:column;
-    width:70vw;
+    width:50rem;
+    @include within-section-margin;
 
     // border: red solid 1px;
 }
@@ -63,7 +86,7 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    @include between-section-margin;
+    @include within-section-margin;
 
     // border: orange solid 1px;
 }
@@ -83,7 +106,7 @@
     flex-direction:row;
     gap: 3rem;
     align-items:center;
-    @include between-section-margin;
+    @include within-section-margin;
     // border: green solid 1px;
 }
 
@@ -91,8 +114,8 @@
 .takeaway-container {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    max-width:28rem;
+    justify-items: right;
+    // max-width:25rem;
     gap:2rem;
 
     // border: cyan solid 1px;
@@ -104,7 +127,7 @@
     flex-direction: column;
     align-items: left;
     gap:2rem;
-    @include between-section-margin;
+    // @include between-section-margin;
 }
 
 /* container containing subtitles and copy */
@@ -112,13 +135,13 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    max-width:55rem;
-    @include between-section-margin;
+    // max-width:40rem;
+    @include within-section-margin;
 }
 
 /* container to divicde sections on credits and about page */
 .copy-section-container{
-    @include between-section-margin;
+    @include within-section-margin;
 }
 
 /* container for data information at bottom of takeaways */
@@ -127,7 +150,7 @@
     flex-direction:column;
     align-items:center;
     margin-top:2rem;
-    margin-bottom:5rem;
+    @include within-section-margin;
 }
 
 /* container for footer elements */
@@ -138,8 +161,17 @@
 }
 
 .footer-nav{
-    @extend .nav-container;
     @include within-section-margin;
+    // border:red 1px solid;
+    width:50rem;
+    display:flex;
+    flex-direction:row;
+}
+
+.footer-links{
+    @extend .nav-container;
+    // border:orange 1px solid;
+    // width:97vw;
 }
 
 /* for image buttons in footer */
@@ -147,8 +179,8 @@
     display:flex;
     flex-direction:row;
     justify-content:space-between;
-    width:70vw;
-    @include between-section-margin-large;
+    width:50rem;
+    @include between-section-margin;
 }
 
 //* landing page *//
@@ -159,7 +191,7 @@
     flex-direction:column;
     align-items:left;
     @include between-section-margin-large;
-    width: 70vw;
+    width: 50rem;
 
 }
 
@@ -178,23 +210,23 @@
 
 
     h2{
-        max-width:50rem;
+        max-width:40rem;
     }
 }
 
 
-/* mobile layout modifications */
-@media screen and (max-width:930px){
+// /* mobile layout modifications */
+// @media screen and (max-width:930px){
 
-.takeaway-outer-container {
-    display: flex;
-    flex-direction:column;
-    width:70vw;
-    gap: 3rem;
-    align-items:center;
-    @include between-section-margin;
+// .takeaway-outer-container {
+//     display: flex;
+//     flex-direction:column;
+//     width:70vw;
+//     gap: 3rem;
+//     align-items:center;
+//     @include between-section-margin;
 
-    // border: green solid 1px;
-}
+//     // border: green solid 1px;
+// }
 
-}
+// }

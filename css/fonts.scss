@@ -21,6 +21,17 @@
 }
 
 @font-face{
+    font-family:'NeueMontreal-Bold';
+    font-weight:normal;
+    font-style:normal;
+    src: url('../fonts/PPNeueMontreal-Bold.eot');
+	src: url('../fonts/PPNeueMontreal-Bold.eot?#iefix') format('embedded-opentype'), 
+		 url('../fonts/PPNeueMontreal-Bold.woff2') format('woff2'), 
+		 url('../fonts/PPNeueMontreal-Bold.woff') format('woff'),
+		 url('../fonts/PPNeueMontreal-Bold.ttf') format('truetype');
+}
+
+@font-face{
     font-family:'NeueMontreal-Italic';
     font-weight:normal;
     font-style:normal;

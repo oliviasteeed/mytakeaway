@@ -1,154 +1,193 @@
-$background_colour: white;
+$background_colour: #FCFCFC;
 $text_colour: black;
 $stroke_colour: black;
 $recents_colour: #ECECEC;
 $design_colour: #A0E3FF;
-$psychology_colour: #FFD0FD;
-$philosophy_colour: #A9FF76;
+$psychology_colour: #FFBAF4;
+$selfhelp_colour: #D3C3FF;
+$philosophy_colour: #EBFC72;
 $random_colour: #FFF620;
 
 /* for spacing between elements within a section */
-@mixin within-section-margin{
-    margin-bottom:2rem;
+@mixin within-section-margin {
+    margin-bottom: 2rem;
 }
 
 //* visual elements *//
 
+body {
+    background-color: $background_colour;
+}
+
 /* nav button styling */
 
+
 .button {
-    border-radius: 1rem;
-    border: 1px solid $stroke_colour;
-    background-color: $background_colour;
-    width: 6rem;
-    height: 2rem;
+    width: 5rem;
+    height: 1.1rem;
     flex-shrink: 0;
 
     color: $text_colour;
-    font-family: 'NeueMontreal-Medium';
-    font-size: 1rem;
+    // font-family: 'NeueMontreal-Bold', Arial;
+
+    font-size: 0.9rem;
     font-style: normal;
-    font-weight: 500;
-    line-height: 145%;
+    // line-height: 145%;
     /* 1.45rem */
+
+    text-align: center;
+
+    border: 3px solid $background_colour;
+    border-radius: 2rem;
 
     transition: border 0.3s ease-in-out;
 }
 
-.psychology-button{
+.psychology-button {
     @extend .button;
 }
 
-.design-button{
+.design-button {
     @extend .button;
 }
 
-.philosophy-button{
+.philosophy-button {
     @extend .button;
 }
 
-.random-button{
+.random-button {
     @extend .button;
 }
 
-.recents-button{
+.recents-button {
     @extend .button;
 }
 
-.general-button{
+.selfhelp-button {
+    @extend .button;
+}
+
+.general-button {
     @extend .button;
 }
 
 .psychology-button:active {
     background-color: $psychology_colour;
-    border: 0px;
+    border: 3px solid $psychology_colour;
+    border-radius: 2rem;
+
 }
 
 .psychology-button:hover {
-    border: 1px solid $psychology_colour;
+    border: 3px solid $psychology_colour;
+    border-radius: 2rem;
 }
 
 .design-button:active {
     background-color: $design_colour;
-    border: 0px;
+    border: 3px solid $design_colour;
+    border-radius: 2rem;
 }
 
 .design-button:hover {
-    border: 1px solid $design_colour;
+    border: 3px solid $design_colour;
+    border-radius: 2rem;
 }
 
 .philosophy-button:active {
     background-color: $philosophy_colour;
-    border: 0px;
+    border: 3px solid $philosophy_colour;
+    border-radius: 2rem;
 }
 
 .philosophy-button:hover {
-    border: 1px solid $philosophy_colour;
+    border: 3px solid $philosophy_colour;
+    border-radius: 2rem;
 }
 
 .random-button:active {
     background-color: $random_colour;
-    border: 0px;
+    border: 3px solid $random_colour;
+    border-radius: 2rem;
 }
 
 .random-button:hover {
-    border: 1px solid $random_colour;
+    border: 3px solid $random_colour;
+    border-radius: 2rem;
 }
 
 .recents-button:active {
     background-color: $recents_colour;
-    border: 0px;
+    border: 3px solid $recents_colour;
+    border-radius: 2rem;
 }
 
 .recents-button:hover {
-    border: 1px solid $recents_colour;
+    border: 3px solid $recents_colour;
+    border-radius: 2rem;
 }
 
+.selfhelp-button:active {
+    background-color: $selfhelp_colour;
+    border: 3px solid $selfhelp_colour;
+    border-radius: 2rem;
+}
+
+.selfhelp-button:hover {
+    border: 3px solid $selfhelp_colour;
+    border-radius: 2rem;
+}
+
+
+
 /* icon image button styling */
-.image-button{
+.image-button {
     width: 5%;
 }
 
 
-.close-button{
+.close-button {
     @extend .image-button;
     // border: orange 1px solid;
 }
 
-.back-button{
+.back-button {
     @extend .image-button;
     // border: orange 1px solid;
 }
 
-.top-button{
+.top-button {
     @extend .image-button;
     // border: orange 1px solid;
 }
 
-.next-button{
+.next-button {
     @extend .image-button;
     // border: orange 1px solid;
 }
 
-.plus-button{
+.plus-button {
     @extend .image-button;
 }
 
-.button-bg{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border: 1px solid $stroke_colour;
-    background-color:rgba(0, 0, 0, 0);
-    border-radius:50%;
-    width:3.5rem;
-    height:3.5rem;
+
+
+.button-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $background_colour;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
     transition: border 0.3s ease-in-out;
-    flex-shrink:0;
+    flex-shrink: 0;
 }
 
-.button-icon{
-    height:3rem;
+
+.button-icon {
+    height: 3rem;
 }
 
 
@@ -160,7 +199,7 @@ h1 {
     color: $text-colour;
     text-align: center;
     font-family: "Whyte-Medium", Helvetica, sans-serif;
-    font-size: 6rem;
+    font-size: 5rem;
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -168,96 +207,101 @@ h1 {
 
     word-break: break-word;
 
-    max-width:55rem;
+    max-width: 45rem;
 
-    padding:0rem;
-    margin:0rem;
+    padding: 0rem;
+    margin: 0rem;
 
     @include within-section-margin;
+
 }
 
 h2 {
     color: $text-colour;
     font-family: 'NeueMontreal-Medium';
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: 145%;
     /* 1.8125rem */
 
-    padding:0rem;
-    margin:0rem;
+    padding: 0rem;
+    margin: 0rem;
 }
 
-.copy-subtitle{
+.copy-subtitle {
     @include within-section-margin;
 }
 
 h3 {
     color: $text-colour;
     font-family: "Whyte-Regular", Helvetica, sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 200;
     line-height: 100%;
     /* 4rem */
 
-    padding:0rem;
-    margin:0rem;
+    padding: 0rem;
+    margin: 0rem;
 }
 
 /* phone sizing */
-@media screen and (max-width:500px){
-    h1 {
-        color: $text-colour;
-        text-align: center;
-        font-family: "Whyte-Medium", Helvetica, sans-serif;
-        font-size: 4rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 100%;
-        /* 6rem */
-    
-        word-break: break-word;
-    
-        max-width:55rem;
-    
-        padding:0rem;
-        margin:0rem;
-    
-        @include within-section-margin;
-    }
+// @media screen and (max-width:500px){
+//     h1 {
+//         color: $text-colour;
+//         text-align: center;
+//         font-family: "Whyte-Medium", Helvetica, sans-serif;
+//         font-size: 4rem;
+//         font-style: normal;
+//         font-weight: 500;
+//         line-height: 100%;
+//         /* 6rem */
 
-    h3 {
-        color: $text-colour;
-        font-family: "Whyte-Regular", Helvetica, sans-serif;
-        font-size: 2.5rem;
-        font-style: normal;
-        font-weight: 200;
-        line-height: 100%;
-        /* 4rem */
-    
-        padding:0rem;
-        margin:0rem;
-    }
+//         word-break: break-word;
 
-    img{
-        width:300px;
-    }
-}
+//         max-width:55rem;
+
+//         padding:0rem;
+//         margin:0rem;
+
+//         @include within-section-margin;
+//     }
+
+//     h3 {
+//         color: $text-colour;
+//         font-family: "Whyte-Regular", Helvetica, sans-serif;
+//         font-size: 2rem;
+//         font-style: normal;
+//         font-weight: 200;
+//         line-height: 100%;
+//         /* 4rem */
+
+//         padding:0rem;
+//         margin:0rem;
+//     }
+
+//     img{
+//         width:300px;
+//     }
+// }
+
+// img{
+//     height:20rem;
+// }
 
 .site-title {
     color: $text-colour;
-    text-align: center;
+    text-align: left;
     font-family: 'Pressura-Medium';
     font-size: 1.6rem;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 145%;
     /* 2.71875rem */
     letter-spacing: -0.0375rem;
 
-    @include within-section-margin;
+    // @include within-section-margin;
 }
 
 /* copy */
@@ -265,7 +309,7 @@ h3 {
 .copy {
     color: $text-colour;
     font-family: 'NeueMontreal-Book';
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: 170%;
@@ -275,9 +319,9 @@ h3 {
 
 em {
     color: $text-colour;
-    font-family:'NeueHaas-LightItalic';
+    font-family: 'NeueHaas-LightItalic';
     letter-spacing: 0.04rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-style: italic;
     font-weight: 400;
     line-height: 170%;
@@ -286,23 +330,28 @@ em {
 strong {
     color: $text-colour;
     font-family: 'NeueMontreal-Medium';
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: 170%;
-    border-radius:1rem;
-    padding:0.1rem;
+    border-radius: 1rem;
+    padding: 0.1rem;
 }
 
-a{
-    color:$text_colour;
+a {
+    color: $text_colour;
+    font-family: 'NeueMontreal-Medium';
+    // font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
 }
 
 
 /* book cover image hidden when not hovering */
-.hoverimg{
-    position:absolute;
-    display:none;
-    width:8rem;
+.hoverimg {
+    position: absolute;
+    display: none;
+    width: 8rem;
 }
+
 

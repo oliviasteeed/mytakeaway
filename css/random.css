@@ -6,29 +6,29 @@ strong {
 /* general button stroke turn section colour on hover */
 .general-button:active {
   background-color: #FFF620;
-  border: 0px;
+  border: 3px;
 }
 
 .general-button:hover, nav-button:focus {
-  border: 1px solid #FFF620;
+  border: 3px solid #FFF620;
 }
 
 /* show random button as selected */
 .random-button {
   background-color: #FFF620;
-  border: 1px solid #FFF620;
+  border: 3px solid #FFF620;
 }
 
 /* general icon buttons */
 .button-bg:hover, button-bg:focus {
-  border: 1px solid #FFF620;
+  border: 2px solid #FFF620;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
 }
 
 .button-bg:active {
-  border: 1px solid #FFF620;
+  border: 2px solid #FFF620;
   background-color: #FFF620;
   border-radius: 50%;
   width: 3.5rem;
@@ -36,14 +36,14 @@ strong {
 }
 
 .open-button:hover, open-button:focus {
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
 }
 
 .open-button:active {
-  border: 1px solid white;
+  border: 2px solid white;
   background-color: white;
   border-radius: 50%;
   width: 3.5rem;
@@ -55,7 +55,7 @@ strong {
   background-color: #FFF620;
 }
 .takeaway-list-item:hover .button-bg, .takeaway-list-item:focus .button-bg, .takeaway-list-item:active .button-bg {
-  border: 1px solid #FFF620;
+  border: 2px solid #FFF620;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;

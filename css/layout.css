@@ -1,9 +1,6 @@
 /* spacing */
 /* outer container around all content */
 .outer-container {
-  margin-left: 15vw;
-  margin-right: 15vw;
-  margin-top: 5rem;
   margin-bottom: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,25 +12,40 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50rem;
 }
 
 /* container for site title and nav */
 .title-container {
-  margin-bottom: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  width: 97vw;
+  height: 3rem;
 }
 
 /* container for nav buttons */
-.nav-container, .footer-nav {
+.nav-container, .footer-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,13 +55,33 @@
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  gap: 0.75rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  gap: 0.5rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+/* nav bar */
+.nav-bar {
+  width: 100vw;
+  border-radius: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
 }
 
 /* container for image icon and title */
@@ -61,7 +93,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 70vw;
+  width: 50rem;
+  margin-bottom: 2rem;
 }
 
 /* container for book title and author */
@@ -76,7 +109,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 /* container for image buttons */
@@ -106,7 +139,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 /* container for standout takeaway */
@@ -118,10 +151,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  max-width: 28rem;
+  justify-items: right;
   gap: 2rem;
 }
 
@@ -138,7 +168,6 @@
       -ms-flex-align: left;
           align-items: left;
   gap: 2rem;
-  margin-bottom: 5rem;
 }
 
 /* container containing subtitles and copy */
@@ -153,13 +182,12 @@
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
-  max-width: 55rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 /* container to divicde sections on credits and about page */
 .copy-section-container {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 /* container for data information at bottom of takeaways */
@@ -175,7 +203,7 @@
       -ms-flex-align: center;
           align-items: center;
   margin-top: 2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 /* container for footer elements */
@@ -194,6 +222,14 @@
 
 .footer-nav {
   margin-bottom: 2rem;
+  width: 50rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 /* for image buttons in footer */
@@ -208,8 +244,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 70vw;
-  margin-bottom: 10rem;
+  width: 50rem;
+  margin-bottom: 5rem;
 }
 
 /* holds takeaway list item and icon */
@@ -225,7 +261,7 @@
       -ms-flex-align: left;
           align-items: left;
   margin-bottom: 10rem;
-  width: 70vw;
+  width: 50rem;
 }
 
 .takeaway-list-item {
@@ -251,24 +287,5 @@
   margin-bottom: 1rem;
 }
 .takeaway-list-item h2 {
-  max-width: 50rem;
-}
-
-/* mobile layout modifications */
-@media screen and (max-width: 930px) {
-  .takeaway-outer-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 70vw;
-    gap: 3rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-bottom: 5rem;
-  }
+  max-width: 40rem;
 }

@@ -20,24 +20,35 @@
 
     <div class="outer-container">
 
-        <header class="title-container">
-            <h1 class="site-title" onclick="window.location.href='#';" style="cursor: pointer;">my takeaway:</h1>
+        <div class="nav-bar">
+            <header class="title-container">
 
-            <nav class="nav-container">
-                <input type="submit" class="recents-button" value="all"
-                    onclick="window.location.href='#';">
-                <input type="submit" class="design-button" value="design"
-                    onclick="window.location.href='html/design/design.html';">
-                <input type="submit" class="psychology-button" value="psych"
-                    onclick="window.location.href='html/psychology/psychology.html';">
-                <input type="submit" class="philosophy-button" value="philosophy"
-                    onclick="window.location.href='html/philosophy/philosophy.html';">
-                <input type="submit" class="random-button" value="random"
-                    onclick="window.location.href='html/random/random.html';">
-            </nav>
-        </header>
+                <h1 class="site-title" onclick="window.location.href='../../index.html';" style="cursor: pointer;">my
+                    takeaway:</h1>
+
+                <nav class="nav-container">
+                    <a href="index.html" class="recents-button">all</a>
+                    <a href="html/design/design.html" class="design-button">design</a>
+                    <a href="html/psychology/psychology.html" class="psychology-button">psychology</a>
+                    <a href="html/philosophy/philosophy.html" class="philosophy-button">philosophy?</a>
+                    <a href="html/selfhelp/selfhelp.html" type="submit" class="selfhelp-button">self help</a>
+                    <a href="html/random/random.html" type="submit" class="random-button">other stuff</a>
+                </nav>
+            </header>
+        </div>
 
         <div class="takeaway-list-container">
+
+            <div id="social-bar">
+                <div class="takeaway-list-item psychology" onclick="window.location.href='html/psychology/social.html';" style="cursor: pointer;">
+                    <h2> Humans need social connection as much as they do food and water. </h2>
+                    <div class="button-bg">
+                        <input type="image" id="back" class="button-icon" src="img/plusicon.png"
+                            onclick="window.location.href='html/psychology/social.html';" />
+                    </div>
+                </div>
+                <img id="social-img" class="hoverimg" src="img/social_1x.png" />
+            </div>
 
             <div id="creativity-bar">
                 <div class="takeaway-list-item philosophy" onclick="window.location.href='html/philosophy/creativity.html';" style="cursor: pointer;">
@@ -84,7 +95,7 @@
                 <img id="themedusa-img" class="hoverimg" src="img/themedusa_1x.png" />
             </div>
 
-            <div id="themeaning-bar">
+            <!-- <div id="themeaning-bar">
                 <div class="takeaway-list-item psychology" onclick="window.location.href='html/psychology/themeaningofthings.html';" style="cursor: pointer;">
                     <h2> Everything humans produce is a translation of the sun’s energy. </h2>
                     <div class="button-bg">
@@ -93,7 +104,7 @@
                     </div>
                 </div>
                 <img id="themeaning-img" class="hoverimg" src="img/themeaning_1x.png" />
-            </div>
+            </div> -->
 
 
 
@@ -105,38 +116,35 @@
 
 
 
-
         <footer class="footer">
+            <div class="footer-button-container">
+                <div></div>
+                <!-- <div class="button-bg">
+                    <input type="image" id="back" class="button-icon" src="../img/backarrow.png"
+                        onclick="window.location.href='#';" />
+                </div> -->
 
-        
-
-                <div class="footer-button-container">
-                    <div>
-                        <!-- <input type="image" id="back" class="button-icon" src="img/backarrow.png"
-                            onclick="window.location.href='#';" /> -->
-                    </div>
-        
-                    <div class="button-bg">
-                        <input type="image" id="back" class="button-icon" src="img/toparrow.png"
-                            onclick="window.location.href='#';" />
-                    </div>
-        
-                    <div>
-                        <!-- <input type="image" id="back" class="button-icon" src="img/nextarrow.png"
-                            onclick="window.location.href='#';" /> -->
-                    </div>
+                <div class="button-bg">
+                    <input type="image" id="back" class="button-icon" src="img/toparrow.png"
+                        onclick="window.location.href='#';" />
                 </div>
-            
+
+                <div></div>
+                <!-- <div class="button-bg">
+                    <input type="image" id="back" class="button-icon" src="../img/nextarrow.png"
+                        onclick="window.location.href='#';" />
+                </div> -->
+            </div>
 
             <nav class="footer-nav">
-                <input type="submit" class="general-button" value="about"
-                    onclick="window.location.href='html/about.html';">
-                <input type="submit" class="general-button" value="credits"
-                    onclick="window.location.href='html/credits.html';">
+                <h2> Olivia Steed 2023 </h2>
+                <div class="footer-links">
+                    <a href="html/about.html" class="general-button">what is it?</a>
+                    <a href="html/credits.html" class="general-button">credits</a>
+                </div>
             </nav>
-
-            <h2> Olivia Steed 2023 </h2>
         </footer>
+
 
 
     </div>

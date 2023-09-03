@@ -6,31 +6,31 @@ strong {
 /* general button stroke turn section colour on hover */
 .general-button:active {
   background-color: #ECECEC;
-  border: 0px;
+  border: 3px;
 }
 
 .general-button:hover,
 nav-button:focus {
-  border: 1px solid #ECECEC;
+  border: 3px solid #ECECEC;
 }
 
 /* show all button as selected */
 .recents-button {
   background-color: #ECECEC;
-  border: 1px solid #ECECEC;
+  border: 3px solid #ECECEC;
 }
 
 /* general icon buttons */
 .button-bg:hover,
 button-bg:focus {
-  border: 1px solid #ECECEC;
+  border: 2px solid #ECECEC;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
 }
 
 .button-bg:active {
-  border: 1px solid #ECECEC;
+  border: 2px solid #ECECEC;
   background-color: #ECECEC;
   border-radius: 50%;
   width: 3.5rem;
@@ -41,12 +41,12 @@ button-bg:focus {
 .takeaway-list-item:hover.philosophy,
 .takeaway-list-item:focus.philosophy,
 .takeaway-list-item:active.philosophy {
-  background-color: #A9FF76;
+  background-color: #EBFC72;
 }
 .takeaway-list-item:hover.philosophy .button-bg,
 .takeaway-list-item:focus.philosophy .button-bg,
 .takeaway-list-item:active.philosophy .button-bg {
-  border: 1px solid #A9FF76;
+  border: 2px solid #EBFC72;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
@@ -59,7 +59,7 @@ button-bg:focus {
 .takeaway-list-item:hover.design .button-bg,
 .takeaway-list-item:focus.design .button-bg,
 .takeaway-list-item:active.design .button-bg {
-  border: 1px solid #A0E3FF;
+  border: 2px solid #A0E3FF;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
@@ -72,7 +72,7 @@ button-bg:focus {
 .takeaway-list-item:hover.random .button-bg,
 .takeaway-list-item:focus.random .button-bg,
 .takeaway-list-item:active.random .button-bg {
-  border: 1px solid #FFF620;
+  border: 2px solid #FFF620;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
@@ -80,12 +80,12 @@ button-bg:focus {
 .takeaway-list-item:hover.psychology,
 .takeaway-list-item:focus.psychology,
 .takeaway-list-item:active.psychology {
-  background-color: #FFD0FD;
+  background-color: #FFBAF4;
 }
 .takeaway-list-item:hover.psychology .button-bg,
 .takeaway-list-item:focus.psychology .button-bg,
 .takeaway-list-item:active.psychology .button-bg {
-  border: 1px solid #FFD0FD;
+  border: 2px solid #FFBAF4;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;

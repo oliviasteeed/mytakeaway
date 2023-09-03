@@ -1,4 +1,4 @@
-$psychology_colour: #FFD0FD;
+$psychology_colour: #FFBAF4;
 $background_colour: white;
 $text_colour: black;
 $stroke_colour: black;
@@ -13,32 +13,32 @@ strong {
 
 .general-button:active {
     background-color: $psychology_colour;
-    border: 0px;
+    border: 3px;
 }
 
 .general-button:hover,
 nav-button:focus {
-    border: 1px solid $psychology_colour;
+    border: 3px solid $psychology_colour;
 }
 
 /* show psychology button as selected */
 .psychology-button {
     background-color: $psychology_colour;
-    border: 1px solid $psychology_colour;
+    border: 3px solid $psychology_colour;
 }
 
 /* general icon buttons */
 
 .button-bg:hover,
 button-bg:focus {
-    border: 1px solid $psychology_colour;
+    border: 2px solid $psychology_colour;
     border-radius: 50%;
     width: 3.5rem;
     height: 3.5rem;
 }
 
 .button-bg:active {
-    border: 1px solid $psychology_colour;
+    border: 2px solid $psychology_colour;
     background-color: $psychology_colour;
     border-radius: 50%;
     width: 3.5rem;
@@ -50,7 +50,7 @@ button-bg:focus {
         background-color: $psychology_colour;
 
         .button-bg{
-            border: 1px solid $psychology_colour;
+            border: 2px solid $psychology_colour;
             border-radius: 50%;
             width: 3.5rem;
             height: 3.5rem;

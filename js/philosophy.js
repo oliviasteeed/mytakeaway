@@ -21,3 +21,20 @@ themedusabar.onmousemove = function (e){
     themedusaimg.style.left = e.pageX + 10 + "px";
     themedusaimg.style.top = e.pageY - 80 + "px";
 }
+
+// creativity //
+var creativityimg = document.getElementById("creativity-img");
+var creativitybar = document.getElementById("creativity-bar");
+
+creativitybar.onmouseenter = function (e){
+    creativityimg.style.display="block";
+}
+
+creativitybar.onmouseleave = function (e){
+    creativityimg.style.display="none";
+}
+
+creativitybar.onmousemove = function (e){
+    creativityimg.style.left = e.pageX + 10 + "px";
+    creativityimg.style.top = e.pageY - 80 + "px";
+}

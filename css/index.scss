@@ -3,8 +3,8 @@ $text_colour: black;
 $stroke_colour: black;
 $recents_colour: #ECECEC;
 $design_colour: #A0E3FF;
-$psychology_colour: #FFD0FD;
-$philosophy_colour: #A9FF76;
+$psychology_colour: #FFBAF4;
+$philosophy_colour: #EBFC72;
 $random_colour: #FFF620;
 
 /* highlight quotes with section colour */
@@ -17,32 +17,32 @@ strong {
 
 .general-button:active {
     background-color: $recents_colour;
-    border: 0px;
+    border: 3px;
 }
 
 .general-button:hover,
 nav-button:focus {
-    border: 1px solid $recents_colour;
+    border: 3px solid $recents_colour;
 }
 
 /* show all button as selected */
 .recents-button {
     background-color: $recents_colour;
-    border: 1px solid $recents_colour;
+    border: 3px solid $recents_colour;
 }
 
 /* general icon buttons */
 
 .button-bg:hover,
 button-bg:focus {
-    border: 1px solid $recents_colour;
+    border: 2px solid $recents_colour;
     border-radius: 50%;
     width: 3.5rem;
     height: 3.5rem;
 }
 
 .button-bg:active {
-    border: 1px solid $recents_colour;
+    border: 2px solid $recents_colour;
     background-color: $recents_colour;
     border-radius: 50%;
     width: 3.5rem;
@@ -58,7 +58,7 @@ button-bg:focus {
         background-color: $philosophy_colour;
 
         .button-bg{
-            border: 1px solid $philosophy_colour;
+            border: 2px solid $philosophy_colour;
             border-radius: 50%;
             width: 3.5rem;
             height: 3.5rem;
@@ -69,7 +69,7 @@ button-bg:focus {
         background-color: $design_colour;
         
         .button-bg{
-            border: 1px solid $design_colour;
+            border: 2px solid $design_colour;
             border-radius: 50%;
             width: 3.5rem;
             height: 3.5rem;
@@ -80,7 +80,7 @@ button-bg:focus {
         background-color: $random_colour;
 
         .button-bg{
-            border: 1px solid $random_colour;
+            border: 2px solid $random_colour;
             border-radius: 50%;
             width: 3.5rem;
             height: 3.5rem;
@@ -91,7 +91,7 @@ button-bg:focus {
         background-color: $psychology_colour;
 
         .button-bg{
-            border: 1px solid $psychology_colour;
+            border: 2px solid $psychology_colour;
             border-radius: 50%;
             width: 3.5rem;
             height: 3.5rem;

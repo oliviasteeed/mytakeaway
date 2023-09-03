@@ -1,52 +1,25 @@
-// 'use strict';
-
-// //show book cover image on hover
-
-// var img = document.getElementById("themeaning-img");
-// var bar = document.getElementById("themeaning-bar");
-
-// bar.addEventListener("mouseenter", mouseEnter);
-// bar.addEventListener("mouseleave", mouseLeave);
-// bar.addEventListener("mousemove", moveImg);
-
-
-// function mouseEnter(){
-//     img.style.display="block";
-// }
-
-// function mouseLeave(){
-//     img.style.display="none";
-// }
-
-// function moveImg(e){
-//     img.style.transform = `translate3d(calc(${e.clientX}px - 150px), calc(${e.clientY}px - 200%), 0)`
-// }
-
-
 'use strict';
 
 //show book cover image on hover (this is horribly inefficient, figure out how to loop through array and do this)
 
 // the meaning of things //
+// var themeaningimg = document.getElementById("themeaning-img");
+// var themeaningbar = document.getElementById("themeaning-bar");
 
-var themeaningimg = document.getElementById("themeaning-img");
-var themeaningbar = document.getElementById("themeaning-bar");
+// themeaningbar.onmouseenter = function (e){
+//     themeaningimg.style.display="block";
+// }
 
-themeaningbar.onmouseenter = function (e){
-    themeaningimg.style.display="block";
-}
+// themeaningbar.onmouseleave = function (e){
+//     themeaningimg.style.display="none";
+// }
 
-themeaningbar.onmouseleave = function (e){
-    themeaningimg.style.display="none";
-}
-
-themeaningbar.onmousemove = function (e){
-    themeaningimg.style.left = e.pageX + 10 + "px";
-    themeaningimg.style.top = e.pageY - 80 + "px";
-}
+// themeaningbar.onmousemove = function (e){
+//     themeaningimg.style.left = e.pageX + 10 + "px";
+//     themeaningimg.style.top = e.pageY - 80 + "px";
+// }
 
 // the medusa and the snail //
-
 var themedusaimg = document.getElementById("themedusa-img");
 var themedusabar = document.getElementById("themedusa-bar");
 
@@ -64,7 +37,6 @@ themedusabar.onmousemove = function (e){
 }
 
 // the development of meaning //
-
 var thedevimg = document.getElementById("thedevelopment-img");
 var thedevbar = document.getElementById("thedevelopment-bar");
 
@@ -82,7 +54,6 @@ thedevbar.onmousemove = function (e){
 }
 
 // creativity //
-
 var creativityimg = document.getElementById("creativity-img");
 var creativitybar = document.getElementById("creativity-bar");
 
@@ -115,3 +86,21 @@ asteroidbar.onmousemove = function (e){
     asteroidimg.style.left = e.pageX + 10 + "px";
     asteroidimg.style.top = e.pageY - 80 + "px";
 }
+
+//social//
+var socialimg = document.getElementById("social-img");
+var socialbar = document.getElementById("social-bar");
+
+socialbar.onmouseenter = function (e){
+    socialimg.style.display="block";
+}
+
+socialbar.onmouseleave = function (e){
+    socialimg.style.display="none";
+}
+
+socialbar.onmousemove = function (e){
+    socialimg.style.left = e.pageX + 10 + "px";
+    socialimg.style.top = e.pageY - 80 + "px";
+}
+

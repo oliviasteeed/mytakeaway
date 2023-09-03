@@ -11,20 +11,20 @@ strong {
 
 .general-button:hover,
 nav-button:focus {
-  border: 1px solid #ECECEC;
+  border: 3px solid #ECECEC;
 }
 
 /* general icon buttons */
 .button-bg:hover,
 button-bg:focus {
-  border: 1px solid #ECECEC;
+  border: 2px solid #ECECEC;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
 }
 
 .button-bg:active {
-  border: 1px solid #ECECEC;
+  border: 2px solid #ECECEC;
   background-color: #ECECEC;
   border-radius: 50%;
   width: 3.5rem;
@@ -38,6 +38,18 @@ p::-moz-selection {
 p::selection {
   background-color: #ECECEC;
 }
+p::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+p::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
 
 em::-moz-selection {
   background-color: #ECECEC;
@@ -45,6 +57,18 @@ em::-moz-selection {
 
 em::selection {
   background-color: #ECECEC;
+}
+em::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+em::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 strong::-moz-selection {
@@ -54,6 +78,18 @@ strong::-moz-selection {
 strong::selection {
   background-color: #ECECEC;
 }
+strong::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+strong::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
 
 code::-moz-selection {
   background-color: #ECECEC;
@@ -61,6 +97,18 @@ code::-moz-selection {
 
 code::selection {
   background-color: #ECECEC;
+}
+code::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+code::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 h1::-moz-selection {
@@ -70,6 +118,18 @@ h1::-moz-selection {
 h1::selection {
   background-color: #ECECEC;
 }
+h1::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+h1::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
 
 h2::-moz-selection {
   background-color: #ECECEC;
@@ -77,6 +137,18 @@ h2::-moz-selection {
 
 h2::selection {
   background-color: #ECECEC;
+}
+h2::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+h2::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 h3::-moz-selection {
@@ -86,6 +158,18 @@ h3::-moz-selection {
 h3::selection {
   background-color: #ECECEC;
 }
+h3::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+h3::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
 
 h4::-moz-selection {
   background-color: #ECECEC;
@@ -93,6 +177,18 @@ h4::-moz-selection {
 
 h4::selection {
   background-color: #ECECEC;
+}
+h4::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+h4::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 h5::-moz-selection {
@@ -102,6 +198,18 @@ h5::-moz-selection {
 h5::selection {
   background-color: #ECECEC;
 }
+h5::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+h5::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
 
 a::-moz-selection {
   background-color: #ECECEC;
@@ -109,6 +217,18 @@ a::-moz-selection {
 
 a::selection {
   background-color: #ECECEC;
+}
+a::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+a::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 ul::-moz-selection {
@@ -118,6 +238,18 @@ ul::-moz-selection {
 ul::selection {
   background-color: #ECECEC;
 }
+ul::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+ul::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
 
 ol::-moz-selection {
   background-color: #ECECEC;
@@ -125,6 +257,18 @@ ol::-moz-selection {
 
 ol::selection {
   background-color: #ECECEC;
+}
+ol::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+ol::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 li::-moz-selection {
@@ -134,6 +278,18 @@ li::-moz-selection {
 li::selection {
   background-color: #ECECEC;
 }
+li::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+li::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
 
 img::-moz-selection {
   background-color: #ECECEC;
@@ -141,6 +297,18 @@ img::-moz-selection {
 
 img::selection {
   background-color: #ECECEC;
+}
+img::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+img::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 figcaption::-moz-selection {
@@ -150,6 +318,18 @@ figcaption::-moz-selection {
 figcaption::selection {
   background-color: #ECECEC;
 }
+figcaption::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+figcaption::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
 
 input::-moz-selection {
   background-color: #ECECEC;
@@ -157,4 +337,16 @@ input::-moz-selection {
 
 input::selection {
   background-color: #ECECEC;
+}
+input::-moz-selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+input::selection .button-bg {
+  border: 2px solid #ECECEC;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
 }

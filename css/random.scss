@@ -13,30 +13,30 @@ strong{
 
 .general-button:active{
     background-color: $random_colour;
-    border: 0px;
+    border: 3px;
 }
 
 .general-button:hover, nav-button:focus {
-    border: 1px solid $random_colour;
+    border: 3px solid $random_colour;
 }
 
 /* show random button as selected */
 .random-button {
     background-color: $random_colour;
-    border: 1px solid $random_colour;
+    border: 3px solid $random_colour;
 }
 
 /* general icon buttons */
 
 .button-bg:hover, button-bg:focus{
-    border: 1px solid $random_colour;
+    border: 2px solid $random_colour;
     border-radius:50%;
     width:3.5rem;
     height:3.5rem;
 }
 
 .button-bg:active{
-    border: 1px solid $random_colour;
+    border: 2px solid $random_colour;
     background-color: $random_colour;
     border-radius:50%;
     width:3.5rem;
@@ -44,14 +44,14 @@ strong{
 }
 
 .open-button:hover, open-button:focus{
-    border: 1px solid $background-colour;
+    border: 2px solid $background-colour;
     border-radius:50%;
     width:3.5rem;
     height:3.5rem;
 }
 
 .open-button:active{
-    border: 1px solid $background-colour;
+    border: 2px solid $background-colour;
     background-color: $background-colour;
     border-radius:50%;
     width:3.5rem;
@@ -64,7 +64,7 @@ strong{
         background-color: $random_colour;
 
             .button-bg{
-                border: 1px solid $random_colour;
+                border: 2px solid $random_colour;
                 border-radius: 50%;
                 width: 3.5rem;
                 height: 3.5rem;
