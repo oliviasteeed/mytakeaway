@@ -1,11 +1,12 @@
-$background_colour: white;
+$background_colour: #FCFCFC;
 $text_colour: black;
 $stroke_colour: black;
-$recents_colour: #ECECEC;
-$design_colour: #A0E3FF;
-$psychology_colour: #FFBAF4;
-$philosophy_colour: #EBFC72;
-$random_colour: #FFF620;
+$recents_colour: #FFFA87;
+$design_colour: #D0F1FF;
+$psychology_colour: #FFE0FA;
+$selfhelp_colour: #E9E1FF;
+$philosophy_colour: #F0FF88;
+$random_colour: #FFE3AC;
 
 /* highlight quotes with section colour */
 
@@ -92,6 +93,17 @@ button-bg:focus {
 
         .button-bg{
             border: 2px solid $psychology_colour;
+            border-radius: 50%;
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+    }
+
+    &.selfhelp {
+        background-color: $selfhelp_colour;
+
+        .button-bg{
+            border: 2px solid $selfhelp_colour;
             border-radius: 50%;
             width: 3.5rem;
             height: 3.5rem;

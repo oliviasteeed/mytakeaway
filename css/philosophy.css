@@ -1,36 +1,36 @@
 /* highlight quotes with section colour */
 strong {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 /* general button stroke turn section colour on hover */
 .general-button:active {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
   border: 3px;
 }
 
 .general-button:hover, nav-button:focus {
-  border: 3px solid #EBFC72;
+  border: 3px solid #F0FF88;
 }
 
 /* show philosophy button as selected */
 .philosophy-button {
-  background-color: #EBFC72;
-  border: 3px solid #EBFC72;
+  background-color: #F0FF88;
+  border: 3px solid #F0FF88;
   border-radius: 2rem;
 }
 
 /* general icon buttons */
 .button-bg:hover, button-bg:focus {
-  border: 2px solid #EBFC72;
+  border: 2px solid #F0FF88;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
 }
 
 .button-bg:active {
-  border: 2px solid #EBFC72;
-  background-color: #EBFC72;
+  border: 2px solid #F0FF88;
+  background-color: #F0FF88;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
@@ -38,10 +38,10 @@ strong {
 
 /* hovered bar highlights in section colour */
 .takeaway-list-item:hover, .takeaway-list-item:focus, .takeaway-list-item:active {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 .takeaway-list-item:hover .button-bg, .takeaway-list-item:focus .button-bg, .takeaway-list-item:active .button-bg {
-  border: 2px solid #EBFC72;
+  border: 2px solid #F0FF88;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
@@ -49,128 +49,128 @@ strong {
 
 /* cursor selection matches section colour */
 p::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 p::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 em::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 em::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 strong::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 strong::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 code::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 code::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 h1::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 h1::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 h2::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 h2::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 h3::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 h3::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 h4::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 h4::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 h5::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 h5::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 a::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 a::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 ul::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 ul::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 ol::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 ol::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 li::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 li::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 img::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 img::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 figcaption::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 figcaption::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 input::-moz-selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }
 
 input::selection {
-  background-color: #EBFC72;
+  background-color: #F0FF88;
 }

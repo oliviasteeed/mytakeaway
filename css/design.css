@@ -1,35 +1,35 @@
 /* highlight quotes with section colour */
 strong {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 /* general button stroke turn section colour on hover */
 .general-button:active {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
   border: 3px;
 }
 
 .general-button:hover, nav-button:focus {
-  border: 3px solid #BBEBFF;
+  border: 3px solid #D0F1FF;
 }
 
 /* show design button as selected */
 .design-button {
-  background-color: #BBEBFF;
-  border: 3px solid #BBEBFF;
+  background-color: #D0F1FF;
+  border: 3px solid #D0F1FF;
 }
 
 /* general icon buttons */
 .button-bg:hover, button-bg:focus {
-  border: 2px solid #BBEBFF;
+  border: 2px solid #D0F1FF;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
 }
 
 .button-bg:active {
-  border: 2px solid #BBEBFF;
-  background-color: #BBEBFF;
+  border: 2px solid #D0F1FF;
+  background-color: #D0F1FF;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
@@ -37,10 +37,10 @@ strong {
 
 /* hovered bar highlights in section colour */
 .takeaway-list-item:hover, .takeaway-list-item:focus, .takeaway-list-item:active {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 .takeaway-list-item:hover .button-bg, .takeaway-list-item:focus .button-bg, .takeaway-list-item:active .button-bg {
-  border: 2px solid #BBEBFF;
+  border: 2px solid #D0F1FF;
   border-radius: 50%;
   width: 3.5rem;
   height: 3.5rem;
@@ -48,128 +48,128 @@ strong {
 
 /* cursor selection matches section colour */
 p::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 p::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 em::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 em::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 strong::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 strong::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 code::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 code::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 h1::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 h1::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 h2::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 h2::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 h3::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 h3::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 h4::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 h4::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 h5::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 h5::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 a::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 a::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 ul::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 ul::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 ol::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 ol::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 li::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 li::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 img::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 img::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 figcaption::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 figcaption::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 input::-moz-selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }
 
 input::selection {
-  background-color: #BBEBFF;
+  background-color: #D0F1FF;
 }

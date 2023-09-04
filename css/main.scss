@@ -1,12 +1,22 @@
+// $background_colour: #FCFCFC;
+// $text_colour: black;
+// $stroke_colour: black;
+// $recents_colour: #ECECEC;
+// $design_colour: #BBEBFF;
+// $psychology_colour: #FFD7F9;
+// $selfhelp_colour: #E1D7FF;
+// $philosophy_colour: #EBFC72;
+// $random_colour: #FFF620;
+
 $background_colour: #FCFCFC;
 $text_colour: black;
 $stroke_colour: black;
-$recents_colour: #ECECEC;
-$design_colour: #BBEBFF;
-$psychology_colour: #FFC8F6;
-$selfhelp_colour: #E1D7FF;
-$philosophy_colour: #EBFC72;
-$random_colour: #FFF620;
+$recents_colour: #FFFA87;
+$design_colour: #D0F1FF;
+$psychology_colour: #FFE0FA;
+$selfhelp_colour: #E9E1FF;
+$philosophy_colour: #F0FF88;
+$random_colour: #FFE3AC;
 
 /* for spacing between elements within a section */
 @mixin within-section-margin {
