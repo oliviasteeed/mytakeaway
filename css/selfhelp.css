@@ -1,0 +1,190 @@
+/* highlight quotes with section colour */
+strong {
+  background-color: #E1D7FF;
+}
+
+/* general button stroke turn section colour on hover */
+.general-button:active {
+  background-color: #E1D7FF;
+  border: 3px;
+}
+
+.general-button:hover, nav-button:focus {
+  border: 3px solid #E1D7FF;
+}
+
+/* show random button as selected */
+.selfhelp-button {
+  background-color: #E1D7FF;
+  border: 3px solid #E1D7FF;
+}
+
+/* general icon buttons */
+.button-bg:hover, button-bg:focus {
+  border: 2px solid #E1D7FF;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.button-bg:active {
+  border: 2px solid #E1D7FF;
+  background-color: #E1D7FF;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.open-button:hover, open-button:focus {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.open-button:active {
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* hovered bar highlights in section colour */
+.takeaway-list-item:hover, .takeaway-list-item:focus, .takeaway-list-item:active {
+  background-color: #E1D7FF;
+}
+.takeaway-list-item:hover .button-bg, .takeaway-list-item:focus .button-bg, .takeaway-list-item:active .button-bg {
+  border: 2px solid #E1D7FF;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* cursor selection matches section colour */
+p::-moz-selection {
+  background-color: #E1D7FF;
+}
+p::selection {
+  background-color: #E1D7FF;
+}
+
+em::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+em::selection {
+  background-color: #E1D7FF;
+}
+
+strong::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+strong::selection {
+  background-color: #E1D7FF;
+}
+
+code::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+code::selection {
+  background-color: #E1D7FF;
+}
+
+h1::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+h1::selection {
+  background-color: #E1D7FF;
+}
+
+h2::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+h2::selection {
+  background-color: #E1D7FF;
+}
+
+h3::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+h3::selection {
+  background-color: #E1D7FF;
+}
+
+h4::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+h4::selection {
+  background-color: #E1D7FF;
+}
+
+h5::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+h5::selection {
+  background-color: #E1D7FF;
+}
+
+a::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+a::selection {
+  background-color: #E1D7FF;
+}
+
+ul::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+ul::selection {
+  background-color: #E1D7FF;
+}
+
+ol::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+ol::selection {
+  background-color: #E1D7FF;
+}
+
+li::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+li::selection {
+  background-color: #E1D7FF;
+}
+
+img::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+img::selection {
+  background-color: #E1D7FF;
+}
+
+figcaption::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+figcaption::selection {
+  background-color: #E1D7FF;
+}
+
+input::-moz-selection {
+  background-color: #E1D7FF;
+}
+
+input::selection {
+  background-color: #E1D7FF;
+}

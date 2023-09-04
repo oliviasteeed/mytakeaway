@@ -1,67 +1,81 @@
-$psychology_colour: #FFC8F6;
 $background_colour: white;
 $text_colour: black;
 $stroke_colour: black;
+$selfhelp_colour: #E1D7FF;
 
 /* highlight quotes with section colour */
 
-strong {
-    background-color: $psychology_colour;
+strong{
+    background-color: $selfhelp_colour;
 }
 
 /* general button stroke turn section colour on hover */
 
-.general-button:active {
-    background-color: $psychology_colour;
+.general-button:active{
+    background-color: $selfhelp_colour;
     border: 3px;
 }
 
-.general-button:hover,
-nav-button:focus {
-    border: 3px solid $psychology_colour;
+.general-button:hover, nav-button:focus {
+    border: 3px solid $selfhelp_colour;
 }
 
-/* show psychology button as selected */
-.psychology-button {
-    background-color: $psychology_colour;
-    border: 3px solid $psychology_colour;
+/* show random button as selected */
+.selfhelp-button {
+    background-color: $selfhelp_colour;
+    border: 3px solid $selfhelp_colour;
 }
 
 /* general icon buttons */
 
-.button-bg:hover,
-button-bg:focus {
-    border: 2px solid $psychology_colour;
-    border-radius: 50%;
-    width: 3.5rem;
-    height: 3.5rem;
+.button-bg:hover, button-bg:focus{
+    border: 2px solid $selfhelp_colour;
+    border-radius:50%;
+    width:3.5rem;
+    height:3.5rem;
 }
 
-.button-bg:active {
-    border: 2px solid $psychology_colour;
-    background-color: $psychology_colour;
-    border-radius: 50%;
-    width: 3.5rem;
-    height: 3.5rem;
+.button-bg:active{
+    border: 2px solid $selfhelp_colour;
+    background-color: $selfhelp_colour;
+    border-radius:50%;
+    width:3.5rem;
+    height:3.5rem;
+}
+
+.open-button:hover, open-button:focus{
+    border: 2px solid $background-colour;
+    border-radius:50%;
+    width:3.5rem;
+    height:3.5rem;
+}
+
+.open-button:active{
+    border: 2px solid $background-colour;
+    background-color: $background-colour;
+    border-radius:50%;
+    width:3.5rem;
+    height:3.5rem;
 }
 
 /* hovered bar highlights in section colour */
 .takeaway-list-item:hover, .takeaway-list-item:focus, .takeaway-list-item:active{
-        background-color: $psychology_colour;
 
-        .button-bg{
-            border: 2px solid $psychology_colour;
-            border-radius: 50%;
-            width: 3.5rem;
-            height: 3.5rem;
-        }
+        background-color: $selfhelp_colour;
+
+            .button-bg{
+                border: 2px solid $selfhelp_colour;
+                border-radius: 50%;
+                width: 3.5rem;
+                height: 3.5rem;
+            }
 }
 
 
 /* cursor selection matches section colour */
 
 @mixin background-colour {
-    background-color: $psychology_colour;
+    background-color: $selfhelp_colour;
 }
 
 p::selection {

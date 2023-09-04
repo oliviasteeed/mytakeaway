@@ -3,8 +3,8 @@ $text_colour: black;
 $stroke_colour: black;
 $recents_colour: #ECECEC;
 $design_colour: #A0E3FF;
-$psychology_colour: #FFBAF4;
-$selfhelp_colour: #D3C3FF;
+$psychology_colour: #FFC8F6;
+$selfhelp_colour: #E1D7FF;
 $philosophy_colour: #EBFC72;
 $random_colour: #FFF620;
 
@@ -247,48 +247,47 @@ h3 {
 }
 
 /* phone sizing */
-// @media screen and (max-width:500px){
-//     h1 {
-//         color: $text-colour;
-//         text-align: center;
-//         font-family: "Whyte-Medium", Helvetica, sans-serif;
-//         font-size: 4rem;
-//         font-style: normal;
-//         font-weight: 500;
-//         line-height: 100%;
-//         /* 6rem */
+@media screen and (max-width:500px){
+    h1 {
+        color: $text-colour;
+        text-align: center;
+        font-family: "Whyte-Medium", Helvetica, sans-serif;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+        /* 6rem */
 
-//         word-break: break-word;
+        word-break: break-word;
 
-//         max-width:55rem;
+        max-width:55rem;
 
-//         padding:0rem;
-//         margin:0rem;
+        padding:0rem;
+        margin:0rem;
 
-//         @include within-section-margin;
-//     }
+        @include within-section-margin;
+    }
 
-//     h3 {
-//         color: $text-colour;
-//         font-family: "Whyte-Regular", Helvetica, sans-serif;
-//         font-size: 2rem;
-//         font-style: normal;
-//         font-weight: 200;
-//         line-height: 100%;
-//         /* 4rem */
+    h3 {
+        color: $text-colour;
+        font-family: "Whyte-Regular", Helvetica, sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 100%;
+        /* 4rem */
 
-//         padding:0rem;
-//         margin:0rem;
-//     }
+        padding:0rem;
+        margin:0rem;
+    }
 
-//     img{
-//         width:300px;
-//     }
-// }
+    img{
+        width:300px;
+    }
+}
 
-// img{
-//     height:20rem;
-// }
+
+
 
 .site-title {
     color: $text-colour;
