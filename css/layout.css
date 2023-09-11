@@ -307,6 +307,7 @@
 
 .copy-img {
   width: 30rem;
+  mix-blend-mode: multiply;
 }
 
 /* mobile layout modifications */
@@ -377,5 +378,6 @@
   }
   .copy-img {
     width: 70vw;
+    mix-blend-mode: multiply;
   }
 }
