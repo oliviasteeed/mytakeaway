@@ -213,6 +213,19 @@
     }
 }
 
+/* image within copy section */
+.copy-img-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:2rem;
+}
+
+.copy-img{
+    width:30rem;
+}
+
+
 
 /* mobile layout modifications */
 @media screen and (max-width:900px){
@@ -257,6 +270,10 @@
     flex-direction:column;
     width:70vw;
     @include within-section-margin;
+}
+
+.copy-img{
+    width:70vw;
 }
 
 }

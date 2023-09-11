@@ -290,6 +290,25 @@
   max-width: 40rem;
 }
 
+/* image within copy section */
+.copy-img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.copy-img {
+  width: 30rem;
+}
+
 /* mobile layout modifications */
 @media screen and (max-width: 900px) {
   .takeaway-outer-container {
@@ -355,5 +374,8 @@
             flex-direction: column;
     width: 70vw;
     margin-bottom: 2rem;
+  }
+  .copy-img {
+    width: 70vw;
   }
 }
