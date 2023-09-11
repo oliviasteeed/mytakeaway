@@ -34,6 +34,13 @@
   src: url("../fonts/NHaasGroteskDSPro-26ThIt.eot?#iefix") format("embedded-opentype"), url("../fonts/NHaasGroteskDSPro-26ThIt.woff2") format("woff2"), url("../fonts/NHaasGroteskDSPro-26ThIt.woff") format("woff"), url("../fonts/NHaasGroteskDSPro-26ThIt.ttf") format("truetype");
 }
 @font-face {
+  font-family: "NeueHaas-Italic";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/NHaasGroteskDSPro-36XLtIt.eot");
+  src: url("../fonts/NHaasGroteskDSPro-36XLtIt.eot?#iefix") format("embedded-opentype"), url("../fonts/NHaasGroteskDSPro-36XLtIt.woff2") format("woff2"), url("../fonts/NHaasGroteskDSPro-36XLtIt.woff") format("woff"), url("../fonts/NHaasGroteskDSPro-36XLtIt.ttf") format("truetype");
+}
+@font-face {
   font-family: "Whyte-Medium";
   font-weight: normal;
   font-style: normal;
