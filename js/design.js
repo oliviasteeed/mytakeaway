@@ -19,3 +19,19 @@ inmatesbar.onmousemove = function (e){
     inmatesimg.style.top = e.pageY - 80 + "px";
 }
 
+//happy city//
+var happycityimg = document.getElementById("happycity-img");
+var happycitybar = document.getElementById("happycity-bar");
+
+happycitybar.onmouseenter = function (e){
+    happycityimg.style.display="block";
+}
+
+happycitybar.onmouseleave = function (e){
+    happycityimg.style.display="none";
+}
+
+happycitybar.onmousemove = function (e){
+    happycityimg.style.left = e.pageX + 10 + "px";
+    happycityimg.style.top = e.pageY - 80 + "px";
+}
