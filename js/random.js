@@ -35,3 +35,20 @@ lovesextragedybar.onmousemove = function (e){
     lovesextragedyimg.style.left = e.pageX + 10 + "px";
     lovesextragedyimg.style.top = e.pageY - 80 + "px";
 }
+
+//requiem for the american dream//
+var requiemimg = document.getElementById("requiem-img");
+var requiembar = document.getElementById("requiem-bar");
+
+requiembar.onmouseenter = function (e){
+    requiemimg.style.display="block";
+}
+
+requiembar.onmouseleave = function (e){
+    requiemimg.style.display="none";
+}
+
+requiembar.onmousemove = function (e){
+    requiemimg.style.left = e.pageX + 10 + "px";
+    requiemimg.style.top = e.pageY - 80 + "px";
+}
