@@ -188,3 +188,20 @@ requiembar.onmousemove = function (e){
     requiemimg.style.left = e.pageX + 10 + "px";
     requiemimg.style.top = e.pageY - 80 + "px";
 }
+
+// the problem of knowledge //
+var knowledgeimg = document.getElementById("knowledge-img");
+var knowledgebar = document.getElementById("knowledge-bar");
+
+knowledgebar.onmouseenter = function (e){
+    knowledgeimg.style.display="block";
+}
+
+knowledgebar.onmouseleave = function (e){
+    knowledgeimg.style.display="none";
+}
+
+knowledgebar.onmousemove = function (e){
+    knowledgeimg.style.left = e.pageX + 10 + "px";
+    knowledgeimg.style.top = e.pageY - 80 + "px";
+}
